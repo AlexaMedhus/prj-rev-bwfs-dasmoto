@@ -1,0 +1,38 @@
+/*This is for the main title of the page.*/
+.title {
+  font-size: 100px;
+  font-family:helvetica;
+  font-weight: bold;
+  color: khaki;
+  background-image: URL('https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-2/pattern.jpeg');
+  text-align: center;
+}
+
+/* H1 will be for the different headers of the sections. */
+h1{
+  font-family: helvetica;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+  }
+
+/* This is to make the h2 and paragraph heaers the same font familty. */
+  h2,p{
+    font-family:helvetica;
+  }
+/* This is the class to change the background color for the brushes section. */
+  .header1 {
+    background-color: mediumspringgreen;
+  }
+/* This is the class to change the background color for the art frames section. */
+  .header2 {
+    background-color: lightcoral;
+  }
+/* This is the class to change the background color for the paint section. */
+  .header3 {
+    background-color: skyblue;
+  }
+/* This is to turn all bolded font blue for the prices. */
+  strong {
+    color:blue;
+  }
